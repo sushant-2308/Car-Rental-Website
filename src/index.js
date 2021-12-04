@@ -12,6 +12,8 @@ import About from './pages/About';
 import Cars from './pages/Cars';
 import Services from './pages/Services';
 import Contact from './pages/Contact';
+import Book from './Button/BookForm';
+
 import {
   BrowserRouter as Router,
   Switch,
@@ -51,6 +53,14 @@ ReactDOM.render(
              return(
                <>
                 <Cars />
+               </>
+             )
+           }}>
+            </Route>
+            <Route exact path="/cars/book" render={()=>{
+             return(
+               <>
+                <Book />
                </>
              )
            }}>

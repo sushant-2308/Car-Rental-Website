@@ -39,17 +39,17 @@ const Registration = () =>{
 
     <Form.Group className="mb-3" controlId="formBasicPassword">
     <Form.Label>Gender</Form.Label><br/>
-      <div class="form-check form-check-inline">
-      <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1" />
-      <label class="form-check-label" for="inlineRadio1">Male</label>
+      <div className="form-check form-check-inline">
+      <input className="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1" />
+      <label className="form-check-label" for="inlineRadio1">Male</label>
     </div>
-    <div class="form-check form-check-inline">
-      <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2" />
-      <label class="form-check-label" for="inlineRadio2">Female</label>
+    <div className="form-check form-check-inline">
+      <input className="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2" />
+      <label className="form-check-label" for="inlineRadio2">Female</label>
     </div>
-    <div class="form-check form-check-inline">
-      <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2" />
-      <label class="form-check-label" for="inlineRadio2">Others</label>
+    <div className="form-check form-check-inline">
+      <input className="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2" />
+      <label className="form-check-label" for="inlineRadio2">Others</label>
     </div>
     </Form.Group>
 

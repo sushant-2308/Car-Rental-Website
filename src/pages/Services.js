@@ -4,11 +4,11 @@ import { CardGroup, Card, Container } from 'react-bootstrap';
 const Services = () =>{
   return(
       <>
-         <section class="py-5 text-center container">
-            <div class="row py-lg-5">
-              <div class="col-lg-6 col-md-8 mx-auto">
-                <h1 class="fw-light">Our Services</h1>
-                <p class="lead text-muted">Here are some services provided by our Company.</p>
+         <section className="py-5 text-center container">
+            <div className="row py-lg-5">
+              <div className="col-lg-6 col-md-8 mx-auto">
+                <h1 className="fw-light">Our Services</h1>
+                <p className="lead text-muted">Here are some services provided by our Company.</p>
               </div>
             </div>
           </section>
