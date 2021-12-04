@@ -6,7 +6,7 @@ import Login from '../Button/Login';
 import Registration from "../Button/Registration";
 
 
-const NavbarList = () => {
+const NavbarList = (isAuth) => {
     return (
      <div>
      
@@ -29,8 +29,8 @@ const NavbarList = () => {
       <Link className="nav-link" to="/contact">Contact Us</Link>
     </Nav>
     <Nav>
-    <Login />
-    <Registration />
+    <Login isLoggedIn={isAuth}/>
+    {/* <Registration /> */}
    </Nav>
   </Navbar.Collapse>
 </Navbar>
