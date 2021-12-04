@@ -17,7 +17,7 @@ const CarouselSlide = () => {
       alt="First slide"
     />
     <Carousel.Caption>
-      <h3>First slide label</h3>
+      <h3>Rent Exclusive Cars</h3>
       <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
     </Carousel.Caption>
   </Carousel.Item>
@@ -31,7 +31,7 @@ const CarouselSlide = () => {
     />
 
     <Carousel.Caption>
-      <h3>Second slide label</h3>
+      <h3>Relax Your Journey by Renting a Car</h3>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
     </Carousel.Caption>
   </Carousel.Item>
@@ -45,7 +45,7 @@ const CarouselSlide = () => {
     />
 
     <Carousel.Caption>
-      <h3>Third slide label</h3>
+      <h3>Variety of Cars</h3>
       <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
     </Carousel.Caption>
   </Carousel.Item>

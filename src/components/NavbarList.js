@@ -2,8 +2,6 @@ import {React} from "react";
 import { Navbar, Nav} from 'react-bootstrap';
 import image1 from './../Images/WHEELZDRIVE-logos_white.png';
 import { Link } from 'react-router-dom';
-import Login from '../Button/Login';
-import Registration from "../Button/Registration";
 
 
 const NavbarList = () => {
@@ -29,8 +27,7 @@ const NavbarList = () => {
       <Link className="nav-link" to="/contact">Contact Us</Link>
     </Nav>
     <Nav>
-    <Login />
-    <Registration />
+      <button type="button" class="btn btn-primary btn-lg">LogIn/SignUp</button>
    </Nav>
   </Navbar.Collapse>
 </Navbar>

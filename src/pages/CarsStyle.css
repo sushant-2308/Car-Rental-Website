@@ -1,0 +1,12 @@
+.btn-1{
+    text-decoration: none;
+
+}
+.btn-1{
+    width: 5rem;
+}
+
+.btn-1:hover{
+    color: white;
+    cursor: pointer;
+}

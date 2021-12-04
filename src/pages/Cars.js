@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
-import { Row, Col, Image, Card, ListGroup } from 'react-bootstrap'
+import { Row, Col, Image, Card, ListGroup } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
+import './CarsStyle.css';
 
 export default class Cars extends Component {
     render() {
@@ -26,7 +28,7 @@ export default class Cars extends Component {
                     <ListGroup.Item>Fuel: Petrol</ListGroup.Item>
                 </ListGroup>
                 </Card>
-            <button type="button" className="w-25 btn btn-lg btn-outline-primary">Book Now</button>
+            <button type="button"  className="w-10 btn btn-lg btn-outline-primary "><Link className="btn-1" to="/cars/book">Book Now</Link></button>
             </div>
             </div>
               
@@ -50,7 +52,7 @@ export default class Cars extends Component {
                     <ListGroup.Item>Fuel: Petrol</ListGroup.Item>
                 </ListGroup>
                 </Card>
-            <button type="button" className="w-25 btn btn-lg btn-outline-primary">Book Now</button>
+            <button type="button" className="w-10 btn btn-lg btn-outline-primary "><Link className="btn-1" to="/cars/book">Book Now</Link></button>
             </div>
             </div>
               
@@ -74,7 +76,7 @@ export default class Cars extends Component {
                     <ListGroup.Item>Fuel: Petrol/Diesel</ListGroup.Item>
                 </ListGroup>
                 </Card>
-            <button type="button" className="w-25 btn btn-lg btn-outline-primary">Book Now</button>
+            <button type="button" className="w-10 btn btn-lg btn-outline-primary "><Link className="btn-1" to="/cars/book">Book Now</Link></button>
             </div>
             </div>
               
@@ -98,7 +100,7 @@ export default class Cars extends Component {
                     <ListGroup.Item>Fuel: Petrol/Diesel</ListGroup.Item>
                 </ListGroup>
                 </Card>
-            <button type="button" className="w-25 btn btn-lg btn-outline-primary">Book Now</button>
+            <button type="button" className="w-10 btn btn-lg btn-outline-primary "><Link className="btn-1" to="/cars/book">Book Now</Link></button>
             </div>
             </div>
               
@@ -122,7 +124,7 @@ export default class Cars extends Component {
                     <ListGroup.Item>Fuel: Diesel</ListGroup.Item>
                 </ListGroup>
                 </Card>
-            <button type="button" className="w-25 btn btn-lg btn-outline-primary">Book Now</button>
+            <button type="button" className="w-10 btn btn-lg btn-outline-primary "><Link className="btn-1" to="/cars/book">Book Now</Link></button>
             </div>
             </div>
               
@@ -146,7 +148,7 @@ export default class Cars extends Component {
                     <ListGroup.Item>Fuel: Petrol</ListGroup.Item>
                 </ListGroup>
                 </Card>
-            <button type="button" className="w-25 btn btn-lg btn-outline-primary">Book Now</button>
+            <button type="button" className="w-10 btn btn-lg btn-outline-primary  "><Link className="btn-1" to="/cars/book">Book Now</Link></button>
             </div>
             </div>
               

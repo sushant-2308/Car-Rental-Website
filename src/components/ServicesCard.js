@@ -18,8 +18,7 @@ const ServicesCard = () => {
     <Card.Body>
       <Card.Title className="cardTitle">Well Clean Car.</Card.Title> <hr />
       <Card.Text>
-        This is a wider card with supporting text below as a natural lead-in to
-        additional content. This content is a little bit longer.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam quisquam doloribus eius culpa sunt quis optio sapiente molestiae sed quas placeat laborum dolorem tenetur ad molestias, architecto omnis quod inventore voluptate eveniet aut. Minus!
       </Card.Text>
     </Card.Body>
     <Card.Footer>
@@ -30,8 +29,7 @@ const ServicesCard = () => {
     <Card.Body>
       <Card.Title className="cardTitle">Best Price Guarantee.</Card.Title> <hr />
       <Card.Text>
-        This card has supporting text below as a natural lead-in to additional
-        content.{' '}
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam quisquam doloribus eius culpa sunt quis optio sapiente molestiae sed quas placeat laborum dolorem tenetur ad molestias, architecto omnis quod inventore voluptate eveniet aut. Minus!
       </Card.Text>
     </Card.Body>
     <Card.Footer>
@@ -42,9 +40,7 @@ const ServicesCard = () => {
     <Card.Body>
       <Card.Title className="cardTitle">Customers Ratings.</Card.Title> <hr />
       <Card.Text>
-        This is a wider card with supporting text below as a natural lead-in to
-        additional content. This card has even longer content than the first to
-        show that equal height action.
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam quisquam doloribus eius culpa sunt quis optio sapiente molestiae sed quas placeat laborum dolorem tenetur ad molestias, architecto omnis quod inventore voluptate eveniet aut. Minus!
       </Card.Text>
     </Card.Body>
     <Card.Footer>
@@ -55,9 +51,7 @@ const ServicesCard = () => {
     <Card.Body>
       <Card.Title className="cardTitle">24/7 Customer Services.</Card.Title> <hr />
       <Card.Text>
-        This is a wider card with supporting text below as a natural lead-in to
-        additional content. This card has even longer content than the first to
-        show that equal height action.
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam quisquam doloribus eius culpa sunt quis optio sapiente molestiae sed quas placeat laborum dolorem tenetur ad molestias, architecto omnis quod inventore voluptate eveniet aut. Minus!
       </Card.Text>
     </Card.Body>
     <Card.Footer>

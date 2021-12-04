@@ -12,8 +12,7 @@ const CardListInfo = () => {
     <Card.Img width='1054' height='800' variant="top" src={image1} />
     <Card.Body>
       <Card.Text>
-      A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
-      On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word "and" and the Little Blind Text should turn around and return to its own, safe country. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo dolor libero eligendi atque. Nam optio molestiae odio veritatis quibusdam accusamus neque repellat veniam illo expedita officia, sint doloremque corporis eveniet, beatae id necessitatibus possimus excepturi dicta. Voluptatibus labore, ipsam minima dolore accusamus, maxime assumenda mollitia iure ad illo, impedit facere? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, quod!
       </Card.Text>
     </Card.Body>
     <div className="btn">
