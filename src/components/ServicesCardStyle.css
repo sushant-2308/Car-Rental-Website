@@ -1,10 +1,11 @@
-.h1-three{
+.h1-three {
     color: black;
     font-size: 4rem;
     text-align: center;
     margin-bottom: 2rem;
     text-decoration: underline;
 }
-.cardTitle{
+
+.cardTitle {
     text-align: center;
 }
