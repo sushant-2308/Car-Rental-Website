@@ -1,0 +1,21 @@
+.h1-secondary {
+    font-size: 4rem;
+    text-align: center;
+    margin-top: 4rem;
+    text-decoration: underline;
+}
+
+.btn {
+    justify-content: center;
+}
+
+.btn1 {
+    width: 10rem;
+    text-decoration: none;
+    color: white;
+}
+
+.btn1:hover {
+    cursor: pointer;
+    color: white;
+}
