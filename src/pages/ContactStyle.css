@@ -1,25 +1,22 @@
-.form-group {
+.form-group{
     display: flex;
     flex-direction: column;
     margin-top: 5rem;
 }
-
-.form-input {
+.form-input{
     padding: 8px;
     margin-bottom: 15px;
     width: 40rem;
 }
-
-.contact-h1 {
+.contact-h1{
     margin-top: 70px;
 }
-
-.contact-btn {
+.contact-btn{
     margin-bottom: 12px;
 }
 
-@media only screen and (max-width:650) {
-    .form-input {
+@media only screen and (max-width:650){
+    .form-input{
         padding: 8px;
         margin-bottom: 15px;
         width: 40rem;

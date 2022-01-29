@@ -6,6 +6,9 @@ const shortid = require('shortid')
 const Razorpay = require('razorpay')
 const mongoose = require("mongoose");
 const crypto = require('crypto')
+const path = require('path')
+const fast2sms = require('fast-two-sms')
+const cors = require('cors')
 const User = require("./models/user");
 const Car = require("./models/car");
 
@@ -13,6 +16,8 @@ require("dotenv").config();
 const { auth, requiresAuth } = require("express-openid-connect");
 app.use(express.json());
 app.use(cookie_parser());
+app.use(cors())
+
 app.use(
   auth({
     authRequired: false,
@@ -49,20 +54,38 @@ app.get("/auth", async (req, res) => {
   res.send(req.oidc.isAuthenticated() ? "Authenticated" : "Not Authenticated");
 });
 
+// SMS 
+async function SMS(req, res) {
+ 
+  try {
+      const {mobile_number, message} = (req.body)
+      // console.log(JSON.stringify({ ...req.body }));
+      var options = { authorization: process.env.SMS_API_KEY, message: message, numbers: [mobile_number] };
+      const response = await fast2sms.sendMessage(options); //Asynchronous Function.
+      res.send(response.message);
+  } catch (err) {
+      res.send("Failed to send SMS to the Client");
+  }
+}
+
+app.post('/sendmessage', SMS, (req, res) => { });
+
+// Razorpay
 const razorpay = new Razorpay({
-	key_id: 'rzp_test_EPEpJedhKfkAUL',
-	key_secret: 'FySe2f5fie9hij1a5s6clk9B'
+	key_id: 'rzp_test_Kb5Tzqts0BLbP2',
+	key_secret: 't9DFCbpjOmUWoczLO9MErgqJ'
 })
 
-// app.get('/logo.svg', (req, res) => {
-// 	res.sendFile(path.join(__dirname, 'logo.svg'))
-// })
+app.get('/logo.svg', (req, res) => {
+	res.sendFile(path.join(__dirname + "/src/", 'logo.svg'))
+})
 
 app.post('/verification', (req, res) => {
 	// do a validation
 	const secret = '12345678'
 
 	console.log(req.body)
+
 	const shasum = crypto.createHmac('sha256', secret)
 	shasum.update(JSON.stringify(req.body))
 	const digest = shasum.digest('hex')
@@ -79,7 +102,7 @@ app.post('/verification', (req, res) => {
 	res.json({ status: 'ok' })
 })
 
-app.get('/razorpay', async (req, res) => {
+app.post('/razorpay', async (req, res) => {
 	const payment_capture = 1
 	const amount = 499
 	const currency = 'INR'
@@ -97,8 +120,12 @@ app.get('/razorpay', async (req, res) => {
 		res.json({
 			id: response.id,
 			currency: response.currency,
-			amount: response.amount
+			amount: response.amount,
+      mobile_number: response.contact,
+      client_email: response.email,
+      client_name: response.name,
 		})
+    // res.cookie("authtoken", req.oidc.isAuthenticated());
 	} catch (error) {
 		console.log(error)
 	}

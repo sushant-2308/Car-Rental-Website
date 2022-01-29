@@ -1,22 +1,19 @@
-.dateInfo {
+.dateInfo{
     margin: 7rem;
 }
-
-.h1-primary {
+.h1-primary{
     text-align: center;
     font-size: 4rem;
     color: whitesmoke;
 }
-
-.dateStyle {
+.dateStyle{
     display: flex;
     justify-content: center;
     margin-top: 4rem;
     flex-wrap: wrap;
-
+    
 }
-
-.myDate {
+.myDate{
     color: white;
     padding: 6px;
     border: none;
@@ -27,8 +24,7 @@
     width: 14rem;
     height: 3rem;
 }
-
-.findBtn {
+.findBtn{
     font-size: 15px;
     padding: 2px;
     width: 8rem;
@@ -39,18 +35,15 @@
     box-shadow: inset 0 0 0 0 black;
     transition: ease-in 0.3s;
 }
-
-.findBtn:hover {
+.findBtn:hover{
     box-shadow: inset 8rem 0 0 0 white;
     cursor: pointer;
     color: black;
 }
-
-.dates {
+.dates{
     display: flex;
 }
-
-.btnStyle {
+.btnStyle{
     text-align: center;
     margin-top: 2rem;
 }
