@@ -20,7 +20,7 @@ const CardList = () => {
   </Card.Title>
   <hr />
       <Card.Text>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores odio quasi dicta eius, consequatur enim, obcaecati dolorem eligendi esse quaerat numquam tempore illo doloribus architecto laborum aperiam sed molestiae aspernatur.
+      Offering our customers a full refund if they aren’t satisfied with our cars is an indication of driving.
       </Card.Text>
     </Card.Body>
     
@@ -31,7 +31,7 @@ const CardList = () => {
       <Card.Title>We provide easier and faster bookings</Card.Title>
       <hr />
       <Card.Text>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores odio quasi dicta eius, consequatur enim, obcaecati dolorem eligendi esse quaerat numquam tempore illo doloribus architecto laborum aperiam sed molestiae aspernatur.{' '}
+      The best booking engine will keep the guest onsite and allow them to complete their booking in a few clicks or touches. 
       </Card.Text>
     </Card.Body>
     
@@ -42,7 +42,7 @@ const CardList = () => {
       <Card.Title>Your Choice of Any Pickup Location</Card.Title>
       <hr />
       <Card.Text>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores odio quasi dicta eius, consequatur enim, obcaecati dolorem eligendi esse quaerat numquam tempore illo doloribus architecto laborum aperiam sed molestiae aspernatur.
+      Provide us your address so that the driver can reach to you for the pick-up. While giving the location to us it makes us easy to reach you fast.
       </Card.Text>
     </Card.Body>
     

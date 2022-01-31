@@ -1,7 +1,7 @@
 import React from "react";
-import { Carousel } from "react-bootstrap";
-import image1 from './../Images/img-1.jpg';
-import image2 from './../Images/img-2.jpg';
+import { Carousel, Button } from "react-bootstrap";
+import image1 from './../Images/img-2.jpg';
+import image2 from './../Images/img-1.jpg';
 import image3 from './../Images/img-3.jpg';
 
 const CarouselSlide = () => {
@@ -10,20 +10,21 @@ const CarouselSlide = () => {
         <Carousel fade>
   <Carousel.Item>
     <img
-      height = "800px"
+      height = "880px"
       width = "400px"
       className="d-block w-100"
       src={image1}
       alt="First slide"
     />
     <Carousel.Caption>
+    <Button variant="danger mb-3" size="lg" href="/cars">Book Now</Button>
       <h3>Rent Exclusive Cars</h3>
       <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
     <img
-      height = "800px"
+      height = "880px"
       width = "400px"
       className="d-block w-100"
       src={image2}
@@ -31,13 +32,14 @@ const CarouselSlide = () => {
     />
 
     <Carousel.Caption>
+    <Button variant="primary mb-3" size="lg" href="/cars">Book Now</Button>
       <h3>Relax Your Journey by Renting a Car</h3>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
     <img
-      height = "800px"
+      height = "880px"
       width = "500px"
       className="d-block w-100"
       src={image3}
@@ -45,6 +47,7 @@ const CarouselSlide = () => {
     />
 
     <Carousel.Caption>
+    <Button variant="secondary mb-3" size="lg" href="/cars">Book Now</Button>
       <h3>Variety of Cars</h3>
       <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
     </Carousel.Caption>

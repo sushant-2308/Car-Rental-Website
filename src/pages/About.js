@@ -1,6 +1,9 @@
 import React from "react";
 import { Card, Container } from 'react-bootstrap';
-
+import image1 from './../Images/Cars_img-3/img-1.jpg';
+import image2 from './../Images/Cars_img-3/img-2.jpg';
+import image3 from './../Images/Cars_img-3/img-3.jpg';
+import image4 from './../Images/Cars_img-3/img-4.jpg';
 
 function About(){
     
@@ -14,40 +17,41 @@ function About(){
             
             <Card>
             <h2 bg="Danger">Affordable Price</h2>
-    <Card.Img variant="top" src="https://wallpaperaccess.com/full/4933284.jpg" />
+    <Card.Img variant="top" width="122px" height="500px" src={image1} />
     <Card.Body>
       <Card.Text>
-       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor perferendis aliquid, rerum tempore maiores placeat velit quis numquam, provident dolores voluptatibus esse non quam! Doloremque eos provident dicta neque unde? Nobis nam ad optio?
+      With WheelzDrive, you can rent a car at a time that is convenient to you and get it right to your doorstep.WheelzDrive also offers flexible car rental services. You can choose monthly car rental packages, unlimited kilometre packages. For monthly packages call us @ (1800-00xx-xx).
       </Card.Text>
     </Card.Body>
   </Card>
   <br />
             <Card>
-            <h2>Comfortable Cars</h2>
-    <Card.Img variant="top" src="https://wallpaperaccess.com/full/4933367.jpg" />
+            <h2>Sanitized Cars</h2>
+    <Card.Img variant="top" height="500px" src={image2} />
     <Card.Body>
       <Card.Text>
-      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor perferendis aliquid, rerum tempore maiores placeat velit quis numquam, provident dolores voluptatibus esse non quam! Doloremque eos provident dicta neque unde? Nobis nam ad optio?
+      Car subscription from WheelzDrive provides the flexibility of having a car anytime you want, as well as the assurance of a sanitized and virus free vehicle for your own drive. The car sanitization process encompasses all the preventive hygiene best practices directed by the World Health Organization (WHO) and is diligently conducted for each vehicle delivered to the car subscribers.
       </Card.Text>
     </Card.Body>
   </Card>
   <br />
             <Card>
             <h2>Fulfill your needs</h2>
-    <Card.Img variant="top" src="https://wallpaperaccess.com/full/4933357.jpg" />
+    <Card.Img variant="top" height="550px" src={image3} />
     <Card.Body>
       <Card.Text>
-      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor perferendis aliquid, rerum tempore maiores placeat velit quis numquam, provident dolores voluptatibus esse non quam! Doloremque eos provident dicta neque unde? Nobis nam ad optio?
+      WheelzDrive has an amazing fleet of rental cars ranging from compact hatchbacks to roomy sedans and powerful SUVs. You can choose to hire a Hyundai Grand i10, Hyundai Creta, Maruti Suzuki Swift, Mahindra Scorpio, Toyota Innova Crysta, Mahindra XUV and many other car models that suit your requirement.
       </Card.Text>
     </Card.Body>
   </Card>
   <br />
             <Card>
             <h2>Easy Booking</h2>
-    <Card.Img variant="top" src="https://images.unsplash.com/photo-1614200179396-2bdb77ebf81b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bHV4dXJ5JTIwY2FyfGVufDB8fDB8fA%3D%3D&w=1000&q=80" />
+    <Card.Img variant="top" height="550px" src={image4} />
     <Card.Body>
       <Card.Text>
-      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor perferendis aliquid, rerum tempore maiores placeat velit quis numquam, provident dolores voluptatibus esse non quam! Doloremque eos provident dicta neque unde? Nobis nam ad optio?
+      Pick your favourite car and let us know when and where you need it.The car will be delivered to your doorstep at the date and time promised. Start the engine and enjoy your road trip without worrying about the kilometres. You’ll receive an invoice in your email 48 hours after your trip is completed.
+
       </Card.Text>
     </Card.Body>
   </Card>

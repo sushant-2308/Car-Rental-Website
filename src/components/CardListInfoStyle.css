@@ -1,11 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@700&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,300&display=swap');
 .h1-secondary{
     font-size: 4rem;
     text-align: center;
-    margin-top: 4rem;
+    padding-top: 4rem;
     text-decoration: underline;
+    font-family: 'Baloo Bhaina 2', cursive;
+
 }
 .btn{
     justify-content: center;
+    font-family: 'Baloo Bhaina 2', cursive;
+
 }
 .btn1{
     width: 10rem;

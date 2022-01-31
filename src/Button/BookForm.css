@@ -1,0 +1,14 @@
+.book{
+    border: 2px solid black;
+    margin-top: 2rem;
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+
+.btn-1{
+    color: white;
+    text-decoration: none;
+}
+.btn-1:hover{
+    color: white;
+}

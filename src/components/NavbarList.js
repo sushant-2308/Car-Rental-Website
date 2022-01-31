@@ -9,13 +9,14 @@ const NavbarList = (isAuth) => {
      <div>
      
       <Navbar className="Navbar" collapseOnSelect expand="lg" bg="dark" variant="dark">
- 
+      <Link to="/">
   <img
   height = '50px'
   width = '300px'
     src={image1}
     alt='Car_logo'
     />
+    </Link>
   
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
